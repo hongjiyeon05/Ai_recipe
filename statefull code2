@@ -1,0 +1,503 @@
+        import 'package:flutter/material.dart';
+        import 'dart:math' as math;
+        
+        class ArticleWidget extends StatefulWidget {
+        @override
+        _ArticleWidgetState createState() => _ArticleWidgetState();
+        }
+        
+        class _ArticleWidgetState extends State<ArticleWidget> {
+        @override
+        Widget build(BuildContext context) {
+        // Figma Flutter Generator ArticleWidget - COMPONENT
+        
+        return Container(
+      width: 1440,
+      height: 3603,
+      
+      child: Stack(
+        children: <Widget>[
+          Positioned(
+        top: 334,
+        left: 519,
+        child: Text('레시피 추천 결과', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 50,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 411,
+        left: 446,
+        child: Text('(예산과 재료를 기준으로 만들 수 있는 레시피와 필요한 재료를 추천합니다)', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(102, 102, 102, 1),
+        fontFamily: 'Inter',
+        fontSize: 16,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: -30,
+        left: -12,
+        child: Container(
+      width: 1440,
+      height: 164,
+      decoration: BoxDecoration(
+          color : Color.fromRGBO(255, 255, 255, 1),
+  ),
+      child: Stack(
+        children: <Widget>[
+          Positioned(
+        top: 56,
+        left: 984,
+        child: Container(
+      decoration: BoxDecoration(
+          
+  ),
+      padding: EdgeInsets.symmetric(horizontal: 0, vertical: 0),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        
+        children: <Widget>[
+          Text('김미배', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),), SizedBox(width : 48),
+Text('구수진', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),), SizedBox(width : 48),
+Text('홍지연', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),), SizedBox(width : 48),
+Container(
+      decoration: BoxDecoration(
+          borderRadius : BorderRadius.only(
+            topLeft: Radius.circular(8),
+            topRight: Radius.circular(8),
+            bottomLeft: Radius.circular(8),
+            bottomRight: Radius.circular(8),
+          ),
+      boxShadow : [BoxShadow(
+          color: Color.fromRGBO(0, 0, 0, 0.05000000074505806),
+          offset: Offset(0,1),
+          blurRadius: 2
+      )],
+      color : Color.fromRGBO(0, 0, 0, 1),
+  ),
+      padding: EdgeInsets.symmetric(horizontal: 24, vertical: 14),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        
+        children: <Widget>[
+          Text('AI', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(255, 255, 255, 1),
+        fontFamily: 'Inter',
+        fontSize: 16,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),),
+
+        ],
+      ),
+    ),
+
+        ],
+      ),
+    )
+      ),Positioned(
+        top: 67,
+        left: 80,
+        child: Text('recipe recommand', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),
+        ]
+      )
+    )
+      ),Positioned(
+        top: 195.4213409423828,
+        left: 325,
+        child: Transform.rotate(
+        angle: 20.00000065939313 * (math.pi / 180),
+        child: Container(
+        width: 270.221923828125,
+        height: 194.956298828125,
+        decoration: BoxDecoration(
+          borderRadius : BorderRadius.only(
+            topLeft: Radius.circular(11),
+            topRight: Radius.circular(11),
+            bottomLeft: Radius.circular(11),
+            bottomRight: Radius.circular(11),
+          ),
+      image : DecorationImage(
+          image: AssetImage('assets/images/Image4.png'),
+          fit: BoxFit.fitWidth
+      ),
+  )
+      ),
+      )
+      ),Positioned(
+        top: 599,
+        left: 267,
+        child: SvgPicture.asset(
+        'assets/images/rectangle11.svg',
+        semanticsLabel: 'rectangle11'
+      );
+      ),Positioned(
+        top: 930,
+        left: 537,
+        child: Text('레시피 이름 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 50,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 1028,
+        left: 550,
+        child: Text('[상세 정보 보러가기]', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(248, 110, 24, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 653,
+        left: 615,
+        child: Text('레시피 사진 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 653,
+        left: 615,
+        child: Text('레시피 사진 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 599,
+        left: 267,
+        child: Container(
+        width: 809,
+        height: 303,
+        decoration: BoxDecoration(
+          borderRadius : BorderRadius.only(
+            topLeft: Radius.circular(16),
+            topRight: Radius.circular(16),
+            bottomLeft: Radius.circular(0),
+            bottomRight: Radius.circular(0),
+          ),
+      color : Color.fromRGBO(130, 130, 130, 0.3799999952316284),
+  )
+      )
+      ),Positioned(
+        top: 1761,
+        left: 267,
+        child: SvgPicture.asset(
+        'assets/images/rectangle15.svg',
+        semanticsLabel: 'rectangle15'
+      );
+      ),Positioned(
+        top: 2092,
+        left: 537,
+        child: Text('레시피 이름 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 50,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 2190,
+        left: 550,
+        child: Text('[상세 정보 보러가기]', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(248, 110, 24, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 1815,
+        left: 615,
+        child: Text('레시피 사진 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 1815,
+        left: 615,
+        child: Text('레시피 사진 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 1761,
+        left: 267,
+        child: Container(
+        width: 809,
+        height: 303,
+        decoration: BoxDecoration(
+          borderRadius : BorderRadius.only(
+            topLeft: Radius.circular(16),
+            topRight: Radius.circular(16),
+            bottomLeft: Radius.circular(0),
+            bottomRight: Radius.circular(0),
+          ),
+      color : Color.fromRGBO(130, 130, 130, 0.3799999952316284),
+  )
+      )
+      ),Positioned(
+        top: 2342,
+        left: 266,
+        child: SvgPicture.asset(
+        'assets/images/rectangle19.svg',
+        semanticsLabel: 'rectangle19'
+      );
+      ),Positioned(
+        top: 2673,
+        left: 536,
+        child: Text('레시피 이름 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 50,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 2771,
+        left: 549,
+        child: Text('[상세 정보 보러가기]', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(248, 110, 24, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 2396,
+        left: 614,
+        child: Text('레시피 사진 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 2396,
+        left: 614,
+        child: Text('레시피 사진 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 2342,
+        left: 266,
+        child: Container(
+        width: 809,
+        height: 303,
+        decoration: BoxDecoration(
+          borderRadius : BorderRadius.only(
+            topLeft: Radius.circular(16),
+            topRight: Radius.circular(16),
+            bottomLeft: Radius.circular(0),
+            bottomRight: Radius.circular(0),
+          ),
+      color : Color.fromRGBO(130, 130, 130, 0.3799999952316284),
+  )
+      )
+      ),Positioned(
+        top: 599,
+        left: 267,
+        child: SvgPicture.asset(
+        'assets/images/rectangle17.svg',
+        semanticsLabel: 'rectangle17'
+      );
+      ),Positioned(
+        top: 930,
+        left: 537,
+        child: Text('레시피 이름 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 50,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 1028,
+        left: 550,
+        child: Text('[상세 정보 보러가기]', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(248, 110, 24, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 653,
+        left: 615,
+        child: Text('레시피 사진 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 653,
+        left: 615,
+        child: Text('레시피 사진 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 599,
+        left: 267,
+        child: Container(
+        width: 809,
+        height: 303,
+        decoration: BoxDecoration(
+          borderRadius : BorderRadius.only(
+            topLeft: Radius.circular(16),
+            topRight: Radius.circular(16),
+            bottomLeft: Radius.circular(0),
+            bottomRight: Radius.circular(0),
+          ),
+      color : Color.fromRGBO(130, 130, 130, 0.3799999952316284),
+  )
+      )
+      ),Positioned(
+        top: 1180,
+        left: 267,
+        child: SvgPicture.asset(
+        'assets/images/rectangle13.svg',
+        semanticsLabel: 'rectangle13'
+      );
+      ),Positioned(
+        top: 1511,
+        left: 537,
+        child: Text('레시피 이름 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 50,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 1609,
+        left: 550,
+        child: Text('[상세 정보 보러가기]', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(248, 110, 24, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 1207,
+        left: 615,
+        child: Text('레시피 사진 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 1207,
+        left: 615,
+        child: Text('레시피 사진 ', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 25,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 1180,
+        left: 267,
+        child: Container(
+        width: 809,
+        height: 303,
+        decoration: BoxDecoration(
+          borderRadius : BorderRadius.only(
+            topLeft: Radius.circular(16),
+            topRight: Radius.circular(16),
+            bottomLeft: Radius.circular(0),
+            bottomRight: Radius.circular(0),
+          ),
+      color : Color.fromRGBO(130, 130, 130, 0.3799999952316284),
+  )
+      )
+      ),
+        ]
+      )
+    );
+        }
+        }
+        
