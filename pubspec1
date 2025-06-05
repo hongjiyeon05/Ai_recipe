@@ -1,0 +1,10 @@
+            
+      fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Medium.ttf- asset: assets/fonts/Inter-Regular.ttf- asset: assets/fonts/Inter-Bold.ttf
+        weight: normalweight: 400weight: 700
+      
+      dependencies:
+      flutter_svg : ^0.17.4
+        
