@@ -1,0 +1,448 @@
+import 'package:flutter/material.dart';
+
+
+class StartpageWidget extends StatelessWidget {
+          @override
+          Widget build(BuildContext context) {
+          // Figma Flutter Generator StartpageWidget - COMPONENT
+            return Container(
+      width: 1440,
+      height: 1937,
+      
+      child: Stack(
+        children: <Widget>[
+          Positioned(
+        top: 367,
+        left: 206,
+        child: Container(
+        width: 1029,
+        height: 765,
+        decoration: BoxDecoration(
+          borderRadius : BorderRadius.only(
+            topLeft: Radius.circular(22),
+            topRight: Radius.circular(22),
+            bottomLeft: Radius.circular(22),
+            bottomRight: Radius.circular(22),
+          ),
+      image : DecorationImage(
+          image: AssetImage('assets/images/1.png'),
+          fit: BoxFit.fitWidth
+      ),
+  )
+      )
+      ),Positioned(
+        top: 702,
+        left: 517,
+        child: SvgPicture.asset(
+        'assets/images/rectangle2.svg',
+        semanticsLabel: 'rectangle2'
+      );
+      ),Positioned(
+        top: 1404.5897216796875,
+        left: 517,
+        child: SvgPicture.asset(
+        'assets/images/rectangle6.svg',
+        semanticsLabel: 'rectangle6'
+      );
+      ),Positioned(
+        top: 764,
+        left: 517,
+        child: SvgPicture.asset(
+        'assets/images/rectangle3.svg',
+        semanticsLabel: 'rectangle3'
+      );
+      ),Positioned(
+        top: 821,
+        left: 517,
+        child: SvgPicture.asset(
+        'assets/images/rectangle4.svg',
+        semanticsLabel: 'rectangle4'
+      );
+      ),Positioned(
+        top: 1398,
+        left: 531,
+        child: SvgPicture.asset(
+        'assets/images/rectangle5.svg',
+        semanticsLabel: 'rectangle5'
+      );
+      ),Positioned(
+        top: 0,
+        left: 0,
+        child: Container(
+      width: 1440,
+      height: 720,
+      decoration: BoxDecoration(
+          image : DecorationImage(
+          image: AssetImage('assets/images/Imagedragintofill.png'),
+          fit: BoxFit.fitWidth
+      ),
+  ),
+      child: Stack(
+        children: <Widget>[
+          Positioned(
+        top: -390,
+        left: 0,
+        child: Container(
+        width: 1440,
+        height: 1920,
+        decoration: BoxDecoration(
+          image : DecorationImage(
+          image: AssetImage('assets/images/Image3.png'),
+          fit: BoxFit.fitWidth
+      ),
+  )
+      )
+      ),Positioned(
+        top: 0,
+        left: 0,
+        child: Container(
+        width: 1440,
+        height: 720,
+        decoration: BoxDecoration(
+          color : Color.fromRGBO(0, 0, 0, 0.15000000596046448),
+  )
+      )
+      ),
+        ]
+      )
+    )
+      ),Positioned(
+        top: 0,
+        left: 0,
+        child: Container(
+      width: 1440,
+      height: 164,
+      decoration: BoxDecoration(
+          
+  ),
+      child: Stack(
+        children: <Widget>[
+          Positioned(
+        top: 56,
+        left: 970,
+        child: Container(
+      decoration: BoxDecoration(
+          
+  ),
+      padding: EdgeInsets.symmetric(horizontal: 0, vertical: 0),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        
+        children: <Widget>[
+          Text('Page', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(255, 255, 255, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),), SizedBox(width : 48),
+Text('Page', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(255, 255, 255, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),), SizedBox(width : 48),
+Text('Page', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(255, 255, 255, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),), SizedBox(width : 48),
+Container(
+      decoration: BoxDecoration(
+          borderRadius : BorderRadius.only(
+            topLeft: Radius.circular(8),
+            topRight: Radius.circular(8),
+            bottomLeft: Radius.circular(8),
+            bottomRight: Radius.circular(8),
+          ),
+      boxShadow : [BoxShadow(
+          color: Color.fromRGBO(0, 0, 0, 0.05000000074505806),
+          offset: Offset(0,1),
+          blurRadius: 2
+      )],
+      color : Color.fromRGBO(0, 0, 0, 1),
+  ),
+      padding: EdgeInsets.symmetric(horizontal: 24, vertical: 14),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        
+        children: <Widget>[
+          Text('Button', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(255, 255, 255, 1),
+        fontFamily: 'Inter',
+        fontSize: 16,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),),
+
+        ],
+      ),
+    ),
+
+        ],
+      ),
+    )
+      ),Positioned(
+        top: 67,
+        left: 80,
+        child: Text('Site name', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(255, 255, 255, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),
+        ]
+      )
+    )
+      ),Positioned(
+        top: -22,
+        left: 13,
+        child: Container(
+      width: 1440,
+      height: 164,
+      decoration: BoxDecoration(
+          color : Color.fromRGBO(255, 255, 255, 1),
+  ),
+      child: Stack(
+        children: <Widget>[
+          Positioned(
+        top: 56,
+        left: 984,
+        child: Container(
+      decoration: BoxDecoration(
+          
+  ),
+      padding: EdgeInsets.symmetric(horizontal: 0, vertical: 0),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        
+        children: <Widget>[
+          Text('김미배', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),), SizedBox(width : 48),
+Text('구수진', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),), SizedBox(width : 48),
+Text('홍지연', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),), SizedBox(width : 48),
+Container(
+      decoration: BoxDecoration(
+          borderRadius : BorderRadius.only(
+            topLeft: Radius.circular(8),
+            topRight: Radius.circular(8),
+            bottomLeft: Radius.circular(8),
+            bottomRight: Radius.circular(8),
+          ),
+      boxShadow : [BoxShadow(
+          color: Color.fromRGBO(0, 0, 0, 0.05000000074505806),
+          offset: Offset(0,1),
+          blurRadius: 2
+      )],
+      color : Color.fromRGBO(0, 0, 0, 1),
+  ),
+      padding: EdgeInsets.symmetric(horizontal: 24, vertical: 14),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        
+        children: <Widget>[
+          Text('AI', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(255, 255, 255, 1),
+        fontFamily: 'Inter',
+        fontSize: 16,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),),
+
+        ],
+      ),
+    ),
+
+        ],
+      ),
+    )
+      ),Positioned(
+        top: 67,
+        left: 80,
+        child: Text('recipe recommand', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),
+        ]
+      )
+    )
+      ),Positioned(
+        top: 359,
+        left: 258,
+        child: Container(
+      width: 849,
+      height: 44,
+      decoration: BoxDecoration(
+          
+  ),
+      child: Stack(
+        children: <Widget>[
+          Positioned(
+        top: 274,
+        left: 345,
+        child: Text('보유 재료', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 35,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 413,
+        left: 277,
+        child: null
+      ),Positioned(
+        top: 470,
+        left: 277,
+        child: null
+      ),Positioned(
+        top: 351,
+        left: 277,
+        child: null
+      ),
+        ]
+      )
+    )
+      ),Positioned(
+        top: 289,
+        left: 498,
+        child: Container(
+      decoration: BoxDecoration(
+          
+  ),
+      padding: EdgeInsets.symmetric(horizontal: 0, vertical: 0),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        
+        children: <Widget>[Text('보유한 재료와 예산을 입력해주세요.', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 0.75),
+        fontFamily: 'Inter',
+        fontSize: 24,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),),
+],
+      ),
+    )
+      ),Positioned(
+        top: 178,
+        left: 515,
+        child: Text('레시피 추천', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 64,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1
+      ),)
+      ),Positioned(
+        top: 705,
+        left: 573,
+        child: Text('마늘', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 24,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 767,
+        left: 571,
+        child: Text('당근', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 24,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 824,
+        left: 570,
+        child: Text('재료 추가', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 24,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 699,
+        left: 768,
+        child: Text('X', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 759,
+        left: 768,
+        child: Text('X', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(0, 0, 0, 1),
+        fontFamily: 'Inter',
+        fontSize: 20,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1.5 /*PERCENT not supported*/
+      ),)
+      ),Positioned(
+        top: 1425,
+        left: 581,
+        child: Text('START!!', textAlign: TextAlign.left, style: TextStyle(
+        color: Color.fromRGBO(255, 255, 255, 1),
+        fontFamily: 'Inter',
+        fontSize: 40,
+        letterSpacing: 0 /*percentages not used in flutter. defaulting to zero*/,
+        fontWeight: FontWeight.normal,
+        height: 1
+      ),)
+      ),
+        ]
+      )
+    );
+          }
+        }
+        
